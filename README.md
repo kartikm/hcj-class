@@ -1,5 +1,5 @@
-# HTML
+# HTML5, CSS and JavaScript
 
-# CSS
+## Introduction
 
-# JavaScript
+This repository contains basic tutorial for HTML5, CSS and JavaScript.
