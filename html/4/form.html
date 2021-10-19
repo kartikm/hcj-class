@@ -4,14 +4,19 @@
 		<title>
 			Simple form example
 		</title>
+    <style>
+        .input[type=text] {
+        border-style: hidden;
+        }
+    </style>
 	</head>
 	<body>
 		<h1>Submit your details:</h1>
 		<form="signup_form"> <form action="../3/gif.gif" target="_self">
 			<label for="first">First name:</label>
-				<input type="text" id="first" name="first" value="Enter your first name"><br><br>
+				<input type="text" class="input" id="first" name="first" value="Enter your first name"><br><br>
 			<label for="last">Last name:</label>
-				<input type="text" id="last" name="last" value="Enter your last name"><br><br>
+				<input type="text" class="input" id="last" name="last" value="Enter your last name"><br><br>
 			<input type="submit" value="Submit">
 	<p>Click on "Submit" button now!</p>
         </form>
